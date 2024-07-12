@@ -1,0 +1,28 @@
+.direita {
+    border: 1px solid #ccc;
+    padding: 20px; 
+    width: 300px; 
+    border-radius: 15px; 
+
+.direita input,
+.direita select,
+.direita textarea{
+    margin-bottom: 5px; 
+    border-radius: 15px; 
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    width: calc(100% - 18px); 
+}
+
+.direita textarea {
+    resize: vertical; 
+}
+
+.direita input[type="checkbox"],
+.direita input[type="submit"] {
+    margin-bottom: 10px; 
+}}
+
+.format{
+    text-align: right;
+}

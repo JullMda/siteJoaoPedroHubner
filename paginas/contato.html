@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" type="imagex/png" href="../imagens/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="estilos/formulario.css" />
+</head>
+
+<body>
+    <main>
+        <h1>CONTATE-NOS</h1>
+
+    <form class="direita">
+
+
+        <input id="campo_nome" type="text" required>
+        <label for="campo_nome"></label>Nome*
+        <br>
+        <input id="campo_email" type="email" required>
+        <label for="campo_email">Email*</label>
+        <br>
+        <input id="campo_fone" type="number">
+        <label for="campo_fone">Telefone</label>
+        <br>
+        <input id="campo_end" type="text">
+        <label for="campo_end">Endereço</label>
+        <br>
+        <input id="campo_data" type="date">
+        <label for="campo_data">Data de Nascimento</label>
+        <br>
+        <select name="conheceu" id="conheceu">
+            <option value="amigos">Amigos</option>
+            <option value="anuncios">Anúncios</option>
+            <option value="internet">Internet</option>
+        </select>
+        <label for="conheceu">Onde nos conheceu?</label>
+        <br>
+
+        <textarea required name="mensagem" placeholder="Digite aqui sua mensagem" rows="4" cols="30"></textarea>
+        Mensagem
+        <br>
+        <input type="checkbox" id="novid" name="novid" value="Deseja">
+        <label for="novid">Deseja receber novidades?</label>
+        <hr>
+
+        <input class="format" type="submit" value="Enviar">
+
+    </form>
+		
+    </main>
+		
+</body>
+
+</html>
